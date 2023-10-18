@@ -1,0 +1,56 @@
+.array-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 20px;
+  padding-bottom: 20px;  /* Creates space between the bars and buttons */
+}
+
+
+.array-bar {
+  width: 2px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #005f5f;
+}
+
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .array-bar {
+    margin: 0 1px;
+  }
+  .buttons-container button {
+    font-size: 14px;
+    margin: 5px;
+  }
+}

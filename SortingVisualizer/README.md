@@ -1,0 +1,1 @@
+Sorting Visualizer to visualize sorting algorithms with a bar graph

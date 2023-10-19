@@ -2,7 +2,7 @@ import React from 'react';
 import { getMergeSortAnimations, getQuickSortAnimations } from '../sortingAlgorithms/sortingAlgorithms.js';
 import './SortingVisualizer.css';
 
-const ANIMATION_SPEED_MS = 1;
+const ANIMATION_SPEED_MS = 7;
 const NUMBER_OF_ARRAY_BARS = 250;
 const PRIMARY_COLOR = 'turquoise';
 const SECONDARY_COLOR = 'red';
